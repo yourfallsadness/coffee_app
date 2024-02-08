@@ -7,26 +7,13 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import com.example.coffee_like_01.Session.LoginPref
 
 class AuthActivity : AppCompatActivity() {
-
-    private lateinit var user_login_auth: EditText
-    private lateinit var user_password_auth: EditText
-    private lateinit var button_reg_auth: Button
-
-    lateinit var session: LoginPref
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
 
-        if (session.isAuth()){
-            var i : Intent = Intent(applicationContext, ItemsActivity::class.java)
-            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(i)
-            finish()
-        }
 
         val text_view_reg: TextView = findViewById(R.id.text_view_reg)
         val user_login: EditText = findViewById(R.id.user_login_auth)
