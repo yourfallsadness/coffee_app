@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash"
+    android:orientation="vertical"
+    tools:context=".GoodsActivity">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="bottom"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/days_one"
+        android:text="COFFEE LiKE" />
+
+    <TextView
+        android:id="@+id/text_view_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/days_one"
+        android:text="Корзина" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Coffee_like_01" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+    </style>
+
+    <style name="Theme.Coffee_like_01" parent="Base.Theme.Coffee_like_01" >
+    <item name="android:windowSplashScreenBackground">@color/splash</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_logo_animated</item>
+    <item name="android:windowSplashScreenAnimationDuration">1000</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+
+</resources>
